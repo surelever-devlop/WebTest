@@ -1,0 +1,16 @@
+body {
+    background-color: #f0f8ff; /* 全体の背景をアリスブルー（薄い青）に */
+    color: #333333; /* 文字色を濃いグレーにして読みやすく */
+    font-family: 'Helvetica Neue', Arial, sans-serif; /* スッキリしたフォントを指定 */
+    display: flex;
+    justify-content: center; /* 左右の中央に配置 */
+    align-items: center; /* 上下の中央に配置 */
+    height: 100vh; /* 画面の高さをブラウザの高さ(100%)に合わせる */
+    margin: 0; /* ブラウザが持っているデフォルトの余白を消す */
+}
+
+h1 {
+    color: #0056b3; /* 見出しの文字を濃い青色に */
+    border-bottom: 2px solid #0056b3; /* 文字の下に青い線を引く */
+    padding-bottom: 10px; /* 文字と下線の間に少し余白を開ける */
+}
